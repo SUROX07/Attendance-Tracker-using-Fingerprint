@@ -1,0 +1,59 @@
+// all student data
+[
+  {
+    "student_id": "12345",
+    "name": "John Doe",
+    "days_present": 70
+  },
+  {
+    "student_id": "67890",
+    "name": "Jane Smith",
+    "days_present": 65
+  },
+  {
+    "student_id": "54321",
+    "name": "Emily Johnson",
+    "days_present": 80
+  },
+  {
+    "student_id": "98765",
+    "name": "Michael Brown",
+    "days_present": 55
+  },
+  {
+    "student_id": "11223",
+    "name": "Linda Taylor",
+    "days_present": 75
+  },
+  {
+    "student_id": "33445",
+    "name": "Chris Evans",
+    "days_present": 60
+  },
+  {
+    "student_id": "55667",
+    "name": "Sarah White",
+    "days_present": 72
+  },
+  {
+    "student_id": "77889",
+    "name": "James Green",
+    "days_present": 68
+  },
+  {
+    "student_id": "99001",
+    "name": "Patricia Black",
+    "days_present": 78
+  },
+  {
+    "student_id": "22334",
+    "name": "Robert Blue",
+    "days_present": 65
+  }
+]
+
+
+//particular student data
+{"student_id": "1334", "name":"surajit das", "days_present":55}
+
+

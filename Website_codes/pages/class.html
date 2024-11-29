@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Class Attendance History</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script src="/assets/scripts/class.js" defer></script>
+
+  <style>
+    /* CSS for fade-in animation */
+    .fade-in {
+      opacity: 0;
+      animation: fadeIn 0.8s ease-in forwards;
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+  </style>
+</head>
+<body class="bg-gray-100 font-sans fade-in">
+
+  <!-- Header -->
+  <header class="flex justify-between items-center p-4 bg-blue-600 text-white">
+    <div class="text-xl font-bold">Class Attendance Tracker</div>
+    <a href="dashboard.html" class="bg-blue-700 hover:bg-blue-800 text-white px-4 py-2 rounded">
+      Dashboard
+    </a>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container mx-auto p-6">
+    <h2 class="text-2xl font-semibold mb-4">Class Attendance History</h2>
+
+    <!-- Table to Display Student Data -->
+    <div class="overflow-x-auto bg-white rounded shadow-md p-6">
+      <table class="min-w-full bg-white">
+        <thead>
+          <tr class="w-full bg-gray-200 text-gray-600 uppercase text-sm leading-normal">
+            <th class="py-3 px-6 text-left">Student ID</th>
+            <th class="py-3 px-6 text-left">Name</th>
+            <th class="py-3 px-6 text-left">Days Present</th>
+          </tr>
+        </thead>
+        <tbody id="class-attendance-data" class="text-gray-700 text-sm font-light">
+          <!-- Rows will be populated by JavaScript -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</body>
+</html>
