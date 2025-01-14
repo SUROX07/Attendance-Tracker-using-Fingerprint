@@ -35,33 +35,19 @@ Attendance-Tracker-using-Fingerprint/ ├── Website_code/ # Frontend and bac
    ```bash
    git clone https://github.com/your-username/Attendance-Tracker-using-Fingerprint.git
    cd Attendance-Tracker-using-Fingerprint
-Install the required dependencies for the frontend and backend:
-
-bash
-Copy code
-cd Website_code
-npm install
-Set up MongoDB and ensure it's running.
-
-Set up Python environment for fingerprint recognition:
-
-Install the required libraries:
-bash
-Copy code
-pip install opencv-python requests
-Start the backend server:
-
-bash
-Copy code
-npm start
-Open the website in your browser by navigating to http://localhost:3000.
-
-r
-Copy code
-
-This single `.md` file contains all the necessary information, installation steps, and details about your project. Let me know if you need any more changes!
-
-
-
-
+2. Install the required dependencies for the frontend and backend:
+   ```bash
+   cd Website_code
+   npm install
+3. Set up MongoDB and ensure it's running.
+4. Set up Python environment for fingerprint recognition:
+   -Install the required libraries:
+      ```bach
+      pip install opencv-python requests
+5. Start the backend server:
+     ```bash
+     npm start
+6. Open the website in your browser by navigating to http://localhost:3000.
+      ```bash
+      Open the website in your browser by navigating to http://localhost:3000.
 
