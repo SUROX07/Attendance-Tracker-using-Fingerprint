@@ -3,8 +3,16 @@
 ## About
 The **Attendance-Tracker-using-Fingerprint** is a web application designed to enable professors to monitor student attendance through a secure and intuitive platform. The application uses fingerprint-based authentication to track attendance and provides real-time statistics on the dashboard for easy analysis. The project is built using **MongoDB**, **Node.js**, and **Tailwind CSS** for the frontend and backend, with **Python** used for fingerprint recognition.
 
-## File Structure
-Attendance-Tracker-using-Fingerprint/ ├── Website_code/ # Frontend and backend code │ ├── backend/ # Node.js backend code (API, MongoDB integration) │ ├── pages/ # Web platform pages │ ├── assets/ # Stylesheets, scripts, and images ├── finger_auth_codes/ # Fingerprint recognition program in Python │ ├── fing/ # Stored fingerprints for authentication
+## Directory Details
+
+- **Website_code/**: Contains all the code for the frontend and backend of the application, including Node.js for the backend and various HTML pages for the frontend.
+  - **backend/**: Contains the backend code, including API routes and MongoDB integration.
+  - **pages/**: Contains HTML pages for the user interface of the platform.
+  - **assets/**: Stores stylesheets, JavaScript files, and images used in the application.
+
+- **finger_auth_codes/**: Contains Python scripts used for fingerprint recognition.
+  - **fing/**: Holds stored fingerprint data for student authentication.
+
 
 # Key Features
 
